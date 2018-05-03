@@ -1,0 +1,120 @@
+*{
+    padding: 0; /* Reset all padding to 0 */
+    margin: 0; /* Reset all margin to 0 */
+}
+
+body{
+    background: #F9F9F9; /* Set HTML background color */
+    font: 14px "Lucida Grande";  /* Set global font size & family */
+    color: #464646; /* Set global text color */
+}
+
+p{
+    margin: 10px 0px 10px 0px; /* Add some padding to the top and bottom of the <p> tags */
+}
+/* Header */
+
+#header{
+    height: 45px; /* Set header height */
+    background: #464646; /* Set header background color */
+}
+
+#header h3{
+    color: #FFFFF3; /* Set header heading(top left title ) color */
+    padding: 10px; /* Set padding, to center it within the header */
+    font-weight: normal; /* Set font weight to normal, default it was set to bold */
+}
+
+/* Wrap */
+
+#wrap{
+    background: #FFFFFF; /* Set content background to white */
+    width: 615px; /* Set the width of our content area */
+    margin: 0 auto; /* Center our content in our browser */
+    margin-top: 50px; /* Margin top to make some space between the header and the content */
+    padding: 10px; /* Padding to make some more space for our text */
+    border: 1px solid #DFDFDF; /* Small border for the finishing touch */
+    text-align: center; /* Center our content text */
+}
+
+#wrap h3{
+    font: italic 22px Georgia; /* Set font for our heading 2 that will be displayed in our wrap */
+}
+
+/* Form & Input field styles */
+
+form{
+    margin-top: 10px; /* Make some more distance away from the description text */
+}
+
+form .submit_button{
+    background: #F9F9F9; /* Set button background */
+    border: 1px solid #DFDFDF; /* Small border around our submit button */
+    padding: 8px; /* Add some more space around our button text */
+}
+
+input{
+    font: normal 16px Georgia;
+    border: 1px solid #DFDFDF;
+    padding: 8px;
+}
+#wrap .statusmsg{
+    font-size: 12px;
+    padding: 3px;
+    background: #EDEDED;
+    border: 1px solid #DFDFDF;
+}
+.input_error{border: 1px solid  red !important;}
+#msg{color: red;}
+header,footer{
+    height: 20px;
+    background-color: #d6d6d6;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    color:black;
+ }
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.p_box{
+    width: 200px;
+    height: 170px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 20 10px;
+    text-align: center;
+    border: 1px solid #bdc3c3;
+}
+.p_box img{
+    width: 100px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.p_box input[type=button] {
+    margin-top: 5px;
+    cursor: pointer;
+}
+#message {
+    width: 600px;
+    padding: 10PX;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 10px;
+}
+#message.error{
+    border: 1px solid red;
+    color: red;
+}
+#message.success{
+    border: 1px solid darkgreen;
+    color: darkgreen;
+}
+#message img{
+    margin-right: 5px;
+    width: 30px;
+    float: left;
+}#message #msg_txt{margin-top: 5px}
